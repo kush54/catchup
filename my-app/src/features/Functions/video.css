@@ -1,0 +1,203 @@
+.sec{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149012404.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow-y: auto; */
+
+}
+
+.sec{
+    display: flex;
+}
+
+.vc{
+  height: 100%;
+  width: 50%;
+  border: 4px solid white;
+  /* background-color: black; */
+}
+
+.player{
+    margin-right: 10vw;
+}
+
+.vc1{
+    height: 42%;
+    width: 60%;
+    border: 2px solid black;
+    background-color: black;
+
+    margin-left: 5vw;
+    margin-top: 3vh;
+}
+
+.acc{
+    /* position: relative; */
+    font-size: 2rem;
+    margin-right: 10vw;
+}
+.acc i{
+    margin-left: 1vw;
+}
+
+.vc2{
+    height: 42%;
+    width: 60%;
+    background-color: black;
+    display: flex;
+    border: 2px solid black;
+    margin-left: 5vw;
+    margin-top: 3vh;
+
+}
+
+.chat{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid green; */
+}
+
+.buttons  button{
+    margin-left: 3vw;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.stop{
+    color: transparent;
+    -webkit-text-stroke: 2px lightseagreen;
+}
+.new{
+    color: transparent;
+    -webkit-text-stroke: 3px rgb(92, 187, 218);
+   
+}
+.ncon{
+    color: transparent;
+    -webkit-text-stroke: 3px red;
+}
+.con{
+    color: transparent;
+    -webkit-text-stroke: 2px green;
+}
+
+.help{
+   height: 300px;
+}
+
+.mchat{
+    margin-top: 5vh;
+    height: 70vh;
+    width: 100%;
+    /* border: 4px solid white; */
+    /* border-bottom: 8px solid gray; */
+    z-index: 12;
+}
+/* .mchat:hover{
+    transform: scale(1.003);
+    -webkit-transform: scale(1.003);
+    -moz-transform: scale(1.003);
+    -ms-transform: scale(1.003);
+    -o-transform: scale(1.003);
+} */
+
+.mchat h1{
+    font-size: 2rem;
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 3px rgb(57, 34, 3);
+    overflow-y: auto;
+
+}
+
+.type{
+    height: 10vh;
+    width: 100%;
+    margin-top: 2vh;
+    /* border: 2px solid cyan; */
+}
+
+.input{
+     width: 80%;
+     border-radius:20px ;
+    
+}
+.send{
+    display: block;
+    color: white;
+    margin-top: 3vh;
+    font-size: 1rem;
+    margin-left: 20vw;
+    background-color: burlywood;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 5vw;
+    height: 5vh;
+}
+
+@media (max-Width:600px){
+  .sec{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  .vc{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    flex-direction: column;
+    border-radius: 2px solid  white;
+    flex-wrap: wrap;
+    -webkit-border-radius: 2px solid  white;
+    -moz-border-radius: 2px solid  white;
+    -ms-border-radius: 2px solid  white;
+    -o-border-radius: 2px solid  white;
+}
+  .vc1,.vc2{
+    height: 30vh;
+    width: 80%;
+   margin-left: 10vw;
+}
+.buttons{
+    width: 100vw;
+    /* border: 2px solid black; */
+}
+.buttons button{
+    font-size: 1.5rem;
+}
+.mchat h1{
+    display: none;
+}
+.mchat{
+    /* margin-top: 5vh; */
+    /* height: 100vh; */
+    margin-top: 0;
+    width: 100vw;
+    /* border: 4px solid blue; */
+    height: 20vh;
+    /* border-bottom: 8px solid gray; */
+    z-index: 12;
+}
+.type{
+    /* display: flex; */
+    text-align: center;
+
+}
+.input{
+   height: 4vh;
+   width: 80vw;
+   margin-left: 10vw;
+}
+.send{
+   
+    display: none;
+}
+
+}
