@@ -172,7 +172,7 @@ const Video = () => {
   };
 
   const handleKeyPress = (e) => {
-    if (message.length === 0) {
+    if (message?.length === 0) {
       return;
     }
     if (e.key === "Enter") {

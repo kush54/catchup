@@ -19,8 +19,8 @@ const Home = () => {
              <div className="max-w-lg mx-auto  p-8 rounded-lg text">
         <h1 className="text-3xl text-center mb-8">Welcome to our Website</h1>
         <div className="flex justify-center mb-8 space-x-4">
-            <Link to="/video"><button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg transition-all duration-300 ease-in-out">Video</button></Link>
-           <Link to="/chat"> <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg transition-all duration-300 ease-in-out">Chat</button></Link>
+            <Link to="/video"><button className=" text-pi border-4   hover:bg-pink-600 font-bold py-2 px-4 rounded-lg transition-all duration-300 ease-in-out">Video</button></Link>
+           <Link to="/chat"> <button className="  border-4 hover:bg-pink-600 font-bold py-2 px-4 rounded-lg transition-all duration-300 ease-in-out">Chat</button></Link>
         </div>
         <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel leo auctor, cursus nunc vel, blandit dui.</p>
     </div> 
